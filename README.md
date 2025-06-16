@@ -19,14 +19,14 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki yazılımlara ih
 ## 🛠️ Kurulum
 
 1.  **Projeyi İndirin/Klonlayın:**
-    `git clone [proje_reposu_adresi]` veya ZIP olarak indirin.
+    `git clone https://github.com/fenokingtr/FenoBenleKal` veya ZIP olarak indirin.
 2.  **Dosyaları Yerleştirin:**
     İndirdiğiniz dosyaları web sunucunuzun belge kök dizinine (örneğin, XAMPP için `htdocs` klasörüne) kopyalayın.
 3.  **Veritabanını Oluşturun:**
     *   `config.php` dosyasında veritabanı bağlantı bilgilerini kendi ayarlarınıza göre güncelleyin.
     *   `database.sql` dosyasını kullanarak bir MySQL/MariaDB veritabanı oluşturun ve içe aktarın. Bu dosya gerekli tabloları ve varsayılan bir yönetici kullanıcısını içerir.
 4.  **Uygulamayı Çalıştırın:**
-    Web tarayıcınızda `http://localhost/gizlikal` (veya projenizi yerleştirdiğiniz dizine göre) adresine giderek uygulamayı başlatın.
+    Web tarayıcınızda `http://localhost/` (veya projenizi yerleştirdiğiniz dizine göre) adresine giderek uygulamayı başlatın.
 
 ## ⚙️ Kullanılan Teknolojiler
 
@@ -47,7 +47,6 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki yazılımlara ih
 *   `admin/`: Yönetici paneli dosyaları
     *   `index.php`: Yönetici ana paneli (kullanıcı ekleme, listeleme, mesajları görüntüleme).
     *   `edit_user.php`: Kullanıcı bilgilerini düzenleme sayfası.
-    *   `bot.php`, `bot2.php`: Gelecekteki geliştirmeler veya testler için örnek dosyalar olabilir (mevcut projede aktif kullanılmıyor).
 *   `user/`: Normal kullanıcı paneli dosyaları
     *   `index.php`: Kullanıcı ana paneli (kullanıcıları listeleme, gelen mesajları görüntüleme).
     *   `message.php`: Belirli bir kullanıcıya mesaj gönderme ve ilgili mesajlaşma geçmişini görüntüleme sayfası.
